@@ -1,0 +1,24 @@
+<!-- templates/home.html -->
+{% extends "base.html" %}
+
+{% block title %}Verify OTP{% endblock %}
+
+{% block content %}
+
+<h2>Verify OTP</h2>
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+<form method="post">
+  {% csrf_token %}
+    <input type="text" name="otp_token" id="id_otp_token"/>
+  <button type="submit">Log In</button>
+
+    <input type="hidden" name="next" value="{{next}}" /> next: {{ next }}
+</form>
+
+{% endblock content %}
