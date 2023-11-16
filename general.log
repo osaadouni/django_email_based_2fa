@@ -12109,3 +12109,52 @@ Proceed with response; request.path: /accounts/login/;
 ====================================================================================================
 C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\views.py changed, reloading.
 Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /input/module/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /;
+====================================================================================================
