@@ -12158,3 +12158,2443 @@ TwoFactorMiddleware::__call__(request.path=/)
 [--] session cookie 2fa_verified is NOT set
 Proceed with response; request.path: /;
 ====================================================================================================
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\email_based_2factor_auth\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\email_based_2factor_auth\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\email_based_2factor_auth\settings.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/favicon.ico)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /favicon.ico;
+====================================================================================================
+Not Found: /favicon.ico
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+==> User has logged in: omar;  request.user: omar
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+==> 2FA already confirmed, but no 2fa_verified cookie found 
+==> request.path: /home/; url: /otp/verify/
+Proceed with response; request.path: /home/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /;
+====================================================================================================
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /accounts/logout/;
+====================================================================================================
+==> User omar logged out; delete emaildevice!
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /home/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+==> User has logged in: omar;  request.user: omar
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> 2FA device does not exist
+===> new OTP token: 893663; valid_until: 2023-11-16 19:55:28.203121+00:00
+next_post: None; next_get: None; next_param: None
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 19:55:28.203121+00:00; now: 2023-11-16 19:50:29.100856+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 19:55:28.203121+00:00; now: 2023-11-16 20:03:17.948123+00:00
+==> OTP validation period expired
+==> Delete old 2FA 
+==> Setup new 2FA for user.
+Internal Server Error: /accounts/logout/
+Traceback (most recent call last):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py", line 55, in __call__
+    utils.setup_2fa(request)
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py", line 20, in setup_2fa
+    email_device, created = otp_email_models.models.objects.update_or_create(
+AttributeError: module 'django.db.models' has no attribute 'objects'
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> 2FA device does not exist
+===> new OTP token: 010440; valid_until: 2023-11-16 20:08:54.844938+00:00
+next_post: None; next_get: None; next_param: None
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:03:55.729265+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:03:57.639928+00:00
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:03:57.646910+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:03:59.480526+00:00
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:03:59.486512+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:04:18.711159+00:00
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:04:18.716144+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:06:22.256374+00:00
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:06:22.262357+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:07:16.776171+00:00
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54.844938+00:00; now: 2023-11-16 20:07:16.782155+00:00
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:08:54; now: 2023-11-16 20:09:21
+==> OTP validation period expired
+==> Delete old 2FA 
+==> Setup new 2FA for user.
+===> new OTP token: 079111; valid_until: 2023-11-16 20:14:21.056520+00:00
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:14:21; now: 2023-11-16 20:09:21
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:14:21; now: 2023-11-16 20:09:48
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+==> otp_token: 079111; next: 
+Token is verified
+Redirect to indented page!!
+=> redirect_to: /protected/view/
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /input/module/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /protected/view/;
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with response; request.path: /accounts/logout/;
+====================================================================================================
+==> User omar logged out; delete emaildevice!
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /home/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with response; request.path: /accounts/login/;
+====================================================================================================
+==> User has logged in: omar;  request.user: omar
+===> new OTP token: 729359; valid_until: 2023-11-16 20:25:20.424445+00:00
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:25:20; now: 2023-11-16 20:20:21
+==> 2FA token is NOT expired !
+==> request.path: /home/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:25:20; now: 2023-11-16 20:20:21
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with response; request.path: /otp/verify/;
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:25:20; now: 2023-11-16 20:22:14
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+==> otp_token: 729359; next: 
+Token is verified
+Redirect to indented page!!
+=> redirect_to: /protected/view/
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Redirect to home
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /home/; url: /otp/verify/
+Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /; url: /otp/verify/
+Proceed with view (request.path = /);
+====================================================================================================
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /otp/verify/; url: /otp/verify/
+_login_redirect_url()
+==> Redirect to home
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /home/; url: /otp/verify/
+Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /; url: /otp/verify/
+Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /accounts/logout/; url: /otp/verify/
+Proceed with view (request.path = /accounts/logout/);
+====================================================================================================
+==> User omar logged out; delete emaildevice!
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+==> User has logged in: omar;  request.user: omar
+===> new OTP token: 615314; valid_until: 2023-11-16 20:36:44.478535+00:00
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:36:44; now: 2023-11-16 20:31:45
+==> 2FA token is NOT expired !
+==> request.path: /home/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:36:44; now: 2023-11-16 20:31:45
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\utils.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:36:44; now: 2023-11-16 20:34:08
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:36:44; now: 2023-11-16 20:34:08
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+Internal Server Error: /accounts/logout/
+Traceback (most recent call last):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py", line 29, in __call__
+    if self._current_request_matches_url(request, reverse('accounts:logout')):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+Internal Server Error: /accounts/logout/
+Traceback (most recent call last):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'account'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py", line 29, in __call__
+    if self._current_request_matches_url(request, reverse('account:logout')):
+  File "C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'account' is not a registered namespace
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+==> request.path: /accounts/logout/; url: /accounts/logout/
+Logout url matches!!
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:36:44; now: 2023-11-16 20:41:11
+==> OTP validation period expired
+==> Delete old 2FA 
+==> Setup new 2FA for user.
+setup_2fa()
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+==> request.path: /accounts/logout/; url: /accounts/logout/
+Logout url matches!!
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:46:11; now: 2023-11-16 20:41:11
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+==> request.path: /otp/verify/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:46:11; now: 2023-11-16 20:41:11
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+[+] ==> new OTP token: 748507; valid_until: 2023-11-16 20:46:11.331737+00:00
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+==> request.path: /otp/verify/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:46:11; now: 2023-11-16 20:41:19
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+==> request.path: /accounts/logout/; url: /accounts/logout/
+Logout url matches!!
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:46:11; now: 2023-11-16 20:41:21
+==> 2FA token is NOT expired !
+==> request.path: /accounts/logout/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+==> request.path: /otp/verify/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:46:11; now: 2023-11-16 20:41:21
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+==> request.path: /accounts/logout/; url: /accounts/logout/
+Logout url matches!! Proceed with (logout) view!
+==> User omar logged out; delete emaildevice!
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+==> request.path: /home/; url: /accounts/logout/
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+==> request.path: /; url: /accounts/logout/
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /);
+====================================================================================================
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\signals.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+==> request.path: /accounts/login/; url: /accounts/logout/
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+==> request.path: /accounts/login/; url: /accounts/logout/
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+[SIGNAL-user_logged_in] ==> User has logged in: omar;  request.user: omar
+setup_2fa()
+[+] ==> new OTP token: 471636; valid_until: 2023-11-16 20:49:33.915277+00:00
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+==> request.path: /home/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:49:33; now: 2023-11-16 20:44:34
+==> 2FA token is NOT expired !
+==> request.path: /home/; url: /otp/verify/
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+==> request.path: /otp/verify/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:49:33; now: 2023-11-16 20:44:34
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+==> request.path: /otp/verify/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 20:49:33; now: 2023-11-16 20:47:02
+==> 2FA token is NOT expired !
+==> request.path: /otp/verify/; url: /otp/verify/
+==> Already in OTP verification page URL
+Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+==> otp_token: 471636; next: 
+Token is verified
+Redirect to indented page!!
+=> redirect_to: /protected/view/
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+==> request.path: /input/module/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /input/module/; url: /otp/verify/
+Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+==> request.path: /; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /; url: /otp/verify/
+Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+==> request.path: /protected/view/; url: /accounts/logout/
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+==> request.path: /protected/view/; url: /otp/verify/
+Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[match-url] ==> (request.path: /input/module/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /input/module/) ==  (url: /otp/verify/)
+Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+[EXIT-TO-VIEW] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+C:\Users\o_saa\PycharmProjects\email_based_2factor_auth\myapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[match-url] ==> (request.path: /input/module/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /input/module/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[match-url] ==> (request.path: /input/module/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /input/module/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(omar)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[match-url] ==> (request.path: /accounts/logout/) ==  (url: /accounts/logout/)
+Logout url matches!! Proceed with (logout) view!
+[SIGNAL-user_logged_out] ==> User omar logged out
+[SIGNAL-user_logged_out] ==> Delete emaildevice omar
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[match-url] ==> (request.path: /home/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+[SIGNAL-user_logged_in] ==> User has logged in: omar;  request.user: omar
+setup_2fa()
+[+] ==> new OTP token: 509717; valid_until: 2023-11-16 21:00:59.665814+00:00
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[match-url] ==> (request.path: /home/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:56:00
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /home/) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:56:00
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:57:44
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:00
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:00
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:07
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:07
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:15
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:15
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:17
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:17
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:19
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:19
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:47
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:58:47
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:59:07
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:59:07
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:59:13
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 20:59:13
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(omar)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (omar)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:00:59; now: 2023-11-16 21:00:29
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[match-url] ==> (request.path: /accounts/logout/) ==  (url: /accounts/logout/)
+Logout url matches!! Proceed with (logout) view!
+[SIGNAL-user_logged_out] ==> User omar logged out
+[SIGNAL-user_logged_out] ==> Delete emaildevice omar
+emaildevice for user omar deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[match-url] ==> (request.path: /home/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================
+[SIGNAL-user_logged_in] ==> User has logged in: admin;  request.user: admin
+setup_2fa()
+[+] ==> new OTP token: 122234; valid_until: 2023-11-16 21:16:52.982826+00:00
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (admin)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:16:52; now: 2023-11-16 21:11:53
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+Not on OTP page!. Redirect to otp
+==> Redirect to OTP verification page.
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (admin)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:16:52; now: 2023-11-16 21:11:53
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+Render verify_otp page!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/otp/verify/)
+------------------------------
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[-] session cookie 2fa_verified is NOT set!
+==> email_device:  (admin)
+Check if emaildevice is confirmed.
+==> 2FA is NOT confirmed. 
+==> valid_until: 2023-11-16 21:16:52; now: 2023-11-16 21:12:01
+==> 2FA token is NOT expired !
+[match-url] ==> (request.path: /otp/verify/) ==  (url: /otp/verify/)
+==> Already in OTP verification page URL
+[EXIT] Proceed with view (request.path = /otp/verify/);
+====================================================================================================
+------------------
+verify_otp()
+------------------
+==> otp_token: 122234; next: 
+Token is verified
+Redirect to indented page!!
+=> redirect_to: /admin/
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/)
+------------------------------
+[match-url] ==> (request.path: /admin/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[match-url] ==> (request.path: /input/module/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /input/module/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(admin)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/protected/view/)
+------------------------------
+[match-url] ==> (request.path: /protected/view/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /protected/view/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /protected/view/);
+====================================================================================================
+is_2fa_authenticated(admin)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/input/module/)
+------------------------------
+[match-url] ==> (request.path: /input/module/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /input/module/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /input/module/);
+====================================================================================================
+is_2fa_authenticated(admin)
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/)
+------------------------------
+[match-url] ==> (request.path: /admin/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/)
+------------------------------
+[match-url] ==> (request.path: /admin/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/group/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/group/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/otp_email/emaildevice/)
+------------------------------
+[match-url] ==> (request.path: /admin/otp_email/emaildevice/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/otp_email/emaildevice/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/otp_email/emaildevice/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/2/change/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/2/change/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/2/change/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/2/change/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/otp_email/emaildevice/)
+------------------------------
+[match-url] ==> (request.path: /admin/otp_email/emaildevice/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/otp_email/emaildevice/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/otp_email/emaildevice/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/group/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/group/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/password_change/)
+------------------------------
+[match-url] ==> (request.path: /admin/password_change/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/password_change/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/password_change/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/group/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/group/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/group/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/1/change/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/1/change/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/1/change/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/1/change/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/jsi18n/)
+------------------------------
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/jsi18n/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/jsi18n/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/user/1/history/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/user/1/history/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/user/1/history/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/user/1/history/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/auth/)
+------------------------------
+[match-url] ==> (request.path: /admin/auth/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/auth/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/auth/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/)
+------------------------------
+[match-url] ==> (request.path: /admin/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/admin/)
+------------------------------
+[match-url] ==> (request.path: /admin/) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /admin/) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /admin/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[+] user(admin)  is authenticated
+[+] session cookie 2fa_verified is set!
+[match-url] ==> (request.path: /) ==  (url: /otp/verify/)
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/logout/)
+------------------------------
+[match-url] ==> (request.path: /accounts/logout/) ==  (url: /accounts/logout/)
+Logout url matches!! Proceed with (logout) view!
+[SIGNAL-user_logged_out] ==> User admin logged out
+[SIGNAL-user_logged_out] ==> Delete emaildevice admin
+emaildevice for user admin deleted successfully!
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/home/)
+------------------------------
+[match-url] ==> (request.path: /home/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /home/);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/)
+------------------------------
+[match-url] ==> (request.path: /) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /);
+====================================================================================================
+------------------------------
+TwoFactorMiddleware::__call__(request.path=/accounts/login/)
+------------------------------
+[match-url] ==> (request.path: /accounts/login/) ==  (url: /accounts/logout/)
+[--] User is NOT authenticated
+[--] session cookie 2fa_verified is NOT set
+[EXIT] Proceed with view (request.path = /accounts/login/);
+====================================================================================================

@@ -10,16 +10,24 @@ logger = logging.getLogger(__name__)
 
 
 def setup_2fa(request: dj_http.HttpRequest) -> None:
+    logger.debug("setup_2fa()")
     # If no 2FA device exists, create one and send an OTP via email
-    email_device = otp_email_models.EmailDevice.objects.create(
-        user=request.user, confirmed=False
+    # email_device = otp_email_models.EmailDevice.objects.create(
+    #     user=request.user, confirmed=False
+    # )
+    # email_device, _ = otp_email_models.EmailDevice.objects.get_or_create(user=request.user)
+    #
+    # Create a new 2FA device of update the existing one for the user.
+    email_device, created = otp_email_models.EmailDevice.objects.update_or_create(
+        user=request.user, defaults={'confirmed': False}
     )
 
+    # generate a token and send it to the user
     email_device.generate_challenge()
 
-    logger.debug(f"===> new OTP token: {email_device.token}; valid_until: {email_device.valid_until}")
+    logger.debug(f"[+] ==> new OTP token: {email_device.token}; valid_until: {email_device.valid_until}")
 
-    # OR
+    # OR manullay call the email sending function
     # send_mail(email_device)
 
 def send_mail(email_device) -> bool:

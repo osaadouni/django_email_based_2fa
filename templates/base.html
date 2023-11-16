@@ -24,9 +24,17 @@
         <a class="nav-link" href="{% url 'input_module' %}">Input module</a>
     {% endif %}
 
+
+{% comment %}
+    {% if request.session.2fa_verified %}
+        <a class="nav-link" href="{% url 'logout' %}">Log Out (<strong>{{ user.username }})</strong></a>
+    {% else %}
+        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+    {% endif %}
+{% endcomment %}
+
  {% if user.is_authenticated %}
-  Hi {{ user.username }}!
-    <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+     <a class="nav-link" href="{% url 'logout' %}">Log Out (<strong>{{ user.username }})</strong></a>
  {% else %}
     <a class="nav-link" href="{% url 'login' %}">Log In</a>
  {% endif %}

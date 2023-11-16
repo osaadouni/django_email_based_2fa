@@ -2,3 +2,4 @@ venv/
 venv
 *.log
 general.log
+*.pyc
